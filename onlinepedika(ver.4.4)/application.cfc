@@ -16,7 +16,7 @@
   <cfset this.component2 = '/onlinepedika(ver.4.4)/components/storedProcedures.cfc'>
   <cfset this.component3 = '/onlinepedika(ver.4.4)/components/billing.cfc'>
 
-  <cffunction name="onError" returnType="void" output="true">
+  <!---<cffunction name="onError" returnType="void" output="true">
     <cfargument name="exception" required="true">
     <cfargument name="eventname" type="string" required="true">
     We are so sorry. Something went wrong. We are working on it now.
@@ -32,7 +32,7 @@
         Time: #dateFormat(now(), "short")# #timeFormat(now(), "short")#<br />
       </cfoutput>
     </cfsavecontent>
-  </cffunction>
+  </cffunction>--->
 
   <cffunction name="onRequestStart"> 
 		<cfargument name="targetPage" type="string"/>  
