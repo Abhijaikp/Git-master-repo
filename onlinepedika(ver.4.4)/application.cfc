@@ -45,4 +45,5 @@
       <cfset structClear(form)>
     </cfif>
     </cffunction>
+<!---h--->
 </cfcomponent>
